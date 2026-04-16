@@ -1,6 +1,5 @@
 let typeChart = {};
 
-// ===== 타입 데이터 =====
 const typeKorean = {
   Normal: "노말", Fire: "불꽃", Water: "물", Grass: "풀",
   Electric: "전기", Flying: "비행", Fighting: "격투",
@@ -21,19 +20,16 @@ const typeColors = {
 
 const allTypes = Object.keys(typeKorean);
 
-// ===== 초기화 함수 (모든 로직을 하나로 묶음) =====
 function init() {
   const container = document.getElementById("myTypeContainer");
   const resultDiv = document.getElementById("result");
 
-  // 1. 타입 선택 버튼 렌더링
   function renderTypeSelector() {
-    if (!container) return;
     container.innerHTML = allTypes.map(type => `
       <label class="type-select-card">
         <input type="checkbox" value="${type}">
         <div class="type-image" style="background-color:${typeColors[type]}">
-          <img src="type_image/${type}.svg" onerror="this.src='type_image/default.png'">
+          <img src="./type_image/${type}.svg" onerror="this.src='./type_image/default.png'">
           <div class="check-mark">✔</div>
         </div>
         <div class="type-name">${typeKorean[type]}</div>
@@ -41,10 +37,16 @@ function init() {
     `).join("");
   }
 
-  // 2. 상성 계산 로직
+  function updateSelectionStyle() {
+    document.querySelectorAll(".type-select-card").forEach(card => {
+      const input = card.querySelector("input");
+      card.classList.toggle("selected", input.checked);
+    });
+  }
+
   function calculate() {
-    if (Object.keys(typeChart).length === 0) {
-      resultDiv.innerHTML = "데이터 로딩중...";
+    if (!typeChart || Object.keys(typeChart).length === 0) {
+      resultDiv.innerHTML = "데이터 로딩 실패";
       return;
     }
 
@@ -60,8 +62,7 @@ function init() {
     allTypes.forEach(attacker => {
       let damage = 1;
       myTypes.forEach(type => {
-        const effect = (typeChart[attacker] && typeChart[attacker][type] !== undefined) 
-                       ? typeChart[attacker][type] : 1;
+        const effect = typeChart?.[attacker]?.[type] ?? 1;
         damage *= effect;
       });
 
@@ -73,7 +74,7 @@ function init() {
       <div class="type-row">${list.map(type => `
         <div class="type-card">
           <div class="type-image" style="background-color:${typeColors[type]}">
-            <img src="type_image/${type}.svg">
+            <img src="./type_image/${type}.svg">
           </div>
           <div class="type-name">${typeKorean[type]}</div>
         </div>`).join("")}
@@ -89,31 +90,34 @@ function init() {
     `;
   }
 
-  // 3. 이벤트 리스너
   container.addEventListener("change", (e) => {
     const checked = container.querySelectorAll("input:checked");
+
     if (checked.length > 2) {
       e.target.checked = false;
       alert("타입은 2개까지만 선택 가능합니다!");
       return;
     }
+
+    updateSelectionStyle();
     calculate();
   });
 
-  // 4. 실행
   renderTypeSelector();
-  fetch("data/typeChart.json")
-    .then(res => res.json())
+
+  fetch("./data/typeChart.json")
+    .then(res => {
+      if (!res.ok) throw new Error("파일 없음");
+      return res.json();
+    })
     .then(data => {
       typeChart = data;
-      console.log("Data Loaded");
+      resultDiv.innerHTML = "타입을 선택하세요";
+    })
+    .catch(err => {
+      console.error(err);
+      resultDiv.innerHTML = "데이터 로딩 실패";
     });
 }
 
-// ===== DOM이 완전히 로드된 후 init 실행 (핵심!) =====
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", init);
-} else {
-  init();
-}
-
+document.addEventListener("DOMContentLoaded", init);

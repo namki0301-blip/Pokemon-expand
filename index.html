@@ -45,7 +45,6 @@
     .type-image img {
       width: 40px;
       height: 40px;
-      filter: drop-shadow(0 0 2px black);
     }
 
     .check-mark {
@@ -76,7 +75,7 @@
       display: block;
     }
 
-    .type-select-card:has(input:checked) {
+    .selected {
       outline: 3px solid #00ff88;
     }
 
@@ -94,15 +93,6 @@
       text-align: center;
       background: #222;
     }
-
-    .type-card .type-image {
-      padding: 10px;
-    }
-
-    .type-card .type-name {
-      background: white;
-      color: black;
-    }
   </style>
 </head>
 
@@ -113,9 +103,9 @@
   <h2>🛡️ 내 포켓몬 타입 (최대 2개)</h2>
   <div id="myTypeContainer" class="type-select-grid"></div>
 
-  <div id="result"></div>
+  <div id="result">로딩중...</div>
 
-  <script src="js/app.js?v=2"></script>
+  <script src="./js/app.js"></script>
 
 </body>
 </html>
