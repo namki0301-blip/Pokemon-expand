@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>포켓몬 상성 계산기</title>
+
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    .type-select-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+    }
+
+    .type-select-card {
+      cursor: pointer;
+      border-radius: 8px;
+      overflow: hidden;
+      display: block;
+      transition: 0.2s;
+    }
+
+    .type-select-card:hover {
+      transform: scale(1.05);
+    }
+
+    .type-select-card input {
+      display: none;
+    }
+
+    .type-image {
+      position: relative;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .type-image img {
+      width: 40px;
+      height: 40px;
+      filter: drop-shadow(0 0 2px black);
+    }
+
+    .check-mark {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: #00ff88;
+      color: black;
+      font-size: 12px;
+      padding: 2px 5px;
+      border-radius: 4px;
+      display: none;
+    }
+
+    .type-name {
+      background: white;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+      padding: 5px 0;
+    }
+
+    .type-select-card input:checked + .type-image {
+      filter: brightness(0.5);
+    }
+
+    .type-select-card input:checked + .type-image .check-mark {
+      display: block;
+    }
+
+    .type-select-card:has(input:checked) {
+      outline: 3px solid #00ff88;
+    }
+
+    .type-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .type-card {
+      width: 80px;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      background: #222;
+    }
+
+    .type-card .type-image {
+      padding: 10px;
+    }
+
+    .type-card .type-name {
+      background: white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>포켓몬 상성 계산기</h1>
+
+  <h2>🛡️ 내 포켓몬 타입 (최대 2개)</h2>
+  <div id="myTypeContainer" class="type-select-grid"></div>
+
+  <div id="result"></div>
+
+  <script src="js/app.js?v=2"></script>
+
+</body>
+</html>

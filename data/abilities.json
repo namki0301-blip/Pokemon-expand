@@ -1,0 +1,1886 @@
+[
+  {
+    "id": 1,
+    "name_ko": "악취",
+    "effect": "악취 때문에 상대가 풀죽을 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 2,
+    "name_ko": "잔비",
+    "effect": "배틀에 나가면 비를 내린다.",
+    "generation": 3
+  },
+  {
+    "id": 3,
+    "name_ko": "가속",
+    "effect": "조금씩 스피드가 높아진다.",
+    "generation": 3
+  },
+  {
+    "id": 4,
+    "name_ko": "전투무장",
+    "effect": "상대의 공격이 급소에 맞지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 5,
+    "name_ko": "옹골참",
+    "effect": "일격으로 쓰러지지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 6,
+    "name_ko": "습기",
+    "effect": "누구도 폭발 할 수 없게 된다.",
+    "generation": 3
+  },
+  {
+    "id": 7,
+    "name_ko": "유연",
+    "effect": "마비 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 8,
+    "name_ko": "모래숨기",
+    "effect": "모래바람으로 회피율이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 9,
+    "name_ko": "정전기",
+    "effect": "접촉한 상대를 마비시킬 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 10,
+    "name_ko": "축전",
+    "effect": "전기를 받으면 회복한다.",
+    "generation": 3
+  },
+  {
+    "id": 11,
+    "name_ko": "저수",
+    "effect": "물을 받으면 회복한다.",
+    "generation": 3
+  },
+  {
+    "id": 12,
+    "name_ko": "둔감",
+    "effect": "헤롱헤롱이나 도발 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 13,
+    "name_ko": "날씨부정",
+    "effect": "날씨의 영향이 없어진다.",
+    "generation": 3
+  },
+  {
+    "id": 14,
+    "name_ko": "복안",
+    "effect": "기술의 명중률이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 15,
+    "name_ko": "불면",
+    "effect": "잠듦 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 16,
+    "name_ko": "변색",
+    "effect": "받은 기술의 타입으로 변화한다.",
+    "generation": 3
+  },
+  {
+    "id": 17,
+    "name_ko": "면역",
+    "effect": "독 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 18,
+    "name_ko": "타오르는불꽃",
+    "effect": "불꽃을 받으면 불꽃 기술이 강해진다.",
+    "generation": 3
+  },
+  {
+    "id": 19,
+    "name_ko": "인분",
+    "effect": "기술의 추가 효과를 받지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 20,
+    "name_ko": "마이페이스",
+    "effect": "혼란 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 21,
+    "name_ko": "흡반",
+    "effect": "교체시키는 기술이나 도구의 효과를 받지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 22,
+    "name_ko": "위협",
+    "effect": "상대의 공격을 떨어뜨린다.",
+    "generation": 3
+  },
+  {
+    "id": 23,
+    "name_ko": "그림자밟기",
+    "effect": "상대의 그림자를 밟아 도망칠 수 없게 한다.",
+    "generation": 3
+  },
+  {
+    "id": 24,
+    "name_ko": "까칠한피부",
+    "effect": "접촉한 상대에게 상처를 입힌다.",
+    "generation": 3
+  },
+  {
+    "id": 25,
+    "name_ko": "불가사의부적",
+    "effect": "효과가 굉장한 기술밖에 맞지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 26,
+    "name_ko": "부유",
+    "effect": "땅타입의 기술을 받지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 27,
+    "name_ko": "포자",
+    "effect": "스치면 독, 마비, 잠듦 상태가 될 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 28,
+    "name_ko": "싱크로",
+    "effect": "독, 마비, 화상을 상대에게 옮긴다.",
+    "generation": 3
+  },
+  {
+    "id": 29,
+    "name_ko": "클리어바디",
+    "effect": "상대가 능력을 떨어뜨릴 수 없다.",
+    "generation": 3
+  },
+  {
+    "id": 30,
+    "name_ko": "자연회복",
+    "effect": "배틀에서 일단 물러나면 상태 이상이 회복된다.",
+    "generation": 3
+  },
+  {
+    "id": 31,
+    "name_ko": "피뢰침",
+    "effect": "전기를 끌어모아 특수공격을 올린다.",
+    "generation": 3
+  },
+  {
+    "id": 32,
+    "name_ko": "하늘의은총",
+    "effect": "기술의 추가 효과가 나오기 쉽다.",
+    "generation": 3
+  },
+  {
+    "id": 33,
+    "name_ko": "쓱쓱",
+    "effect": "비가 올 때 스피드가 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 34,
+    "name_ko": "엽록소",
+    "effect": "맑을 때 스피드가 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 35,
+    "name_ko": "발광",
+    "effect": "야생 포켓몬과 만나기 쉬워진다.",
+    "generation": 3
+  },
+  {
+    "id": 36,
+    "name_ko": "트레이스",
+    "effect": "상대와 같은 특성이 된다.",
+    "generation": 3
+  },
+  {
+    "id": 37,
+    "name_ko": "천하장사",
+    "effect": "물리공격의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 38,
+    "name_ko": "독가시",
+    "effect": "접촉한 상대를 중독시킬 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 39,
+    "name_ko": "정신력",
+    "effect": "풀죽지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 40,
+    "name_ko": "마그마의무장",
+    "effect": "얼음 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 41,
+    "name_ko": "수의베일",
+    "effect": "화상 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 42,
+    "name_ko": "자력",
+    "effect": "강철의 포켓몬을 도망칠 수 없게 한다.",
+    "generation": 3
+  },
+  {
+    "id": 43,
+    "name_ko": "방음",
+    "effect": "소리 기술을 받지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 44,
+    "name_ko": "젖은접시",
+    "effect": "비가 올 때 조금씩 HP를 회복한다.",
+    "generation": 3
+  },
+  {
+    "id": 45,
+    "name_ko": "모래날림",
+    "effect": "배틀에서 모래바람을 일으킨다.",
+    "generation": 3
+  },
+  {
+    "id": 46,
+    "name_ko": "프레셔",
+    "effect": "상대가 사용하는 기술의 PP를 많이 줄인다.",
+    "generation": 3
+  },
+  {
+    "id": 47,
+    "name_ko": "두꺼운지방",
+    "effect": "불꽃과 얼음타입의 기술에 강하다.",
+    "generation": 3
+  },
+  {
+    "id": 48,
+    "name_ko": "일찍기상",
+    "effect": "잠듦 상태에서 빨리 깨어난다.",
+    "generation": 3
+  },
+  {
+    "id": 49,
+    "name_ko": "불꽃몸",
+    "effect": "접촉한 상대에게 화상을 입힐 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 50,
+    "name_ko": "도주",
+    "effect": "야생 포켓몬으로부터 반드시 도망칠 수 있다.",
+    "generation": 3
+  },
+  {
+    "id": 51,
+    "name_ko": "날카로운눈",
+    "effect": "명중률이 떨어지지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 52,
+    "name_ko": "괴력집게",
+    "effect": "상대가 공격을 떨어뜨리지 못한다.",
+    "generation": 3
+  },
+  {
+    "id": 53,
+    "name_ko": "픽업",
+    "effect": "도구를 주워올 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 54,
+    "name_ko": "게으름",
+    "effect": "연속으로 공격할 수 없다.",
+    "generation": 3
+  },
+  {
+    "id": 55,
+    "name_ko": "의욕",
+    "effect": "공격은 높지만 빗나가기 쉽다.",
+    "generation": 3
+  },
+  {
+    "id": 56,
+    "name_ko": "헤롱헤롱바디",
+    "effect": "스치면 헤롱헤롱 상태가 될 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 57,
+    "name_ko": "플러스",
+    "effect": "플러스나 마이너스가 있으면 특수공격이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 58,
+    "name_ko": "마이너스",
+    "effect": "플러스나 마이너스가 있으면 특수공격이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 59,
+    "name_ko": "기분파",
+    "effect": "날씨에 따라 캐스퐁이 변화한다.",
+    "generation": 3
+  },
+  {
+    "id": 60,
+    "name_ko": "점착",
+    "effect": "달라붙어서 도구를 지킨다.",
+    "generation": 3
+  },
+  {
+    "id": 61,
+    "name_ko": "탈피",
+    "effect": "상태 이상을 회복할 때가 있다.",
+    "generation": 3
+  },
+  {
+    "id": 62,
+    "name_ko": "근성",
+    "effect": "상태 이상이 되면 공격이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 63,
+    "name_ko": "이상한비늘",
+    "effect": "상태 이상이 되면 방어가 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 64,
+    "name_ko": "해감액",
+    "effect": "흡수한 상대의 HP를 줄인다.",
+    "generation": 3
+  },
+  {
+    "id": 65,
+    "name_ko": "심록",
+    "effect": "위급할 때 풀타입의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 66,
+    "name_ko": "맹화",
+    "effect": "위급할 때 불꽃타입의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 67,
+    "name_ko": "급류",
+    "effect": "위급할 때 물타입의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 68,
+    "name_ko": "벌레의알림",
+    "effect": "위급할 때 벌레타입의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 69,
+    "name_ko": "돌머리",
+    "effect": "부딪쳐도 반동을 받지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 70,
+    "name_ko": "가뭄",
+    "effect": "배틀에 나가면 햇살이 강해진다.",
+    "generation": 3
+  },
+  {
+    "id": 71,
+    "name_ko": "개미지옥",
+    "effect": "배틀에서 상대를 도망칠 수 없게 한다.",
+    "generation": 3
+  },
+  {
+    "id": 72,
+    "name_ko": "의기양양",
+    "effect": "잠듦 상태가 되지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 73,
+    "name_ko": "하얀연기",
+    "effect": "상대가 능력을 떨어뜨릴 수 없다.",
+    "generation": 3
+  },
+  {
+    "id": 74,
+    "name_ko": "순수한힘",
+    "effect": "물리공격의 위력이 올라간다.",
+    "generation": 3
+  },
+  {
+    "id": 75,
+    "name_ko": "조가비갑옷",
+    "effect": "상대의 공격이 급소에 맞지 않는다.",
+    "generation": 3
+  },
+  {
+    "id": 76,
+    "name_ko": "에어록",
+    "effect": "날씨의 영향이 없어진다.",
+    "generation": 3
+  },
+  {
+    "id": 77,
+    "name_ko": "갈지자걸음",
+    "effect": "혼란에 빠져 있으면 회피하기 쉬워진다.",
+    "generation": 4
+  },
+  {
+    "id": 78,
+    "name_ko": "전기엔진",
+    "effect": "전기를 받으면 스피드가 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 79,
+    "name_ko": "투쟁심",
+    "effect": "상대와 성별이 같으면 강해진다.",
+    "generation": 4
+  },
+  {
+    "id": 80,
+    "name_ko": "불굴의마음",
+    "effect": "풀죽을 때마다 스피드가 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 81,
+    "name_ko": "눈숨기",
+    "effect": "날씨가 싸라기눈일 때 회피율이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 82,
+    "name_ko": "먹보",
+    "effect": "나무열매를 여느 때보다 빨리 사용한다.",
+    "generation": 4
+  },
+  {
+    "id": 83,
+    "name_ko": "분노의경혈",
+    "effect": "급소에 맞으면 공격이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 84,
+    "name_ko": "곡예",
+    "effect": "도구가 없어지면 스피드가 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 85,
+    "name_ko": "내열",
+    "effect": "불꽃타입 공격의 위력을 약하게 한다.",
+    "generation": 4
+  },
+  {
+    "id": 86,
+    "name_ko": "단순",
+    "effect": "능력 변화가 여느 때보다 심하다.",
+    "generation": 4
+  },
+  {
+    "id": 87,
+    "name_ko": "건조피부",
+    "effect": "더우면 HP가 줄어든다. 물로 HP를 회복한다.",
+    "generation": 4
+  },
+  {
+    "id": 88,
+    "name_ko": "다운로드",
+    "effect": "상대의 능력을 보고 능력치를 바꾼다.",
+    "generation": 4
+  },
+  {
+    "id": 89,
+    "name_ko": "철주먹",
+    "effect": "펀치를 사용하는 기술의 위력이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 90,
+    "name_ko": "포이즌힐",
+    "effect": "독 상태가 되면 HP를 회복한다.",
+    "generation": 4
+  },
+  {
+    "id": 91,
+    "name_ko": "적응력",
+    "effect": "타입이 같은 기술의 위력이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 92,
+    "name_ko": "스킬링크",
+    "effect": "연속 기술을 많이 쓸 수 있다.",
+    "generation": 4
+  },
+  {
+    "id": 93,
+    "name_ko": "촉촉바디",
+    "effect": "비가 오면 상태 이상이 회복된다.",
+    "generation": 4
+  },
+  {
+    "id": 94,
+    "name_ko": "선파워",
+    "effect": "맑으면 HP가 줄지만 특수공격이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 95,
+    "name_ko": "속보",
+    "effect": "상태 이상이 되면 스피드가 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 96,
+    "name_ko": "노말스킨",
+    "effect": "쓴 기술이 모두 노말타입이 된다.",
+    "generation": 4
+  },
+  {
+    "id": 97,
+    "name_ko": "스나이퍼",
+    "effect": "급소에 맞혔을 때 위력이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 98,
+    "name_ko": "매직가드",
+    "effect": "공격 이외에는 데미지를 입지 않는다.",
+    "generation": 4
+  },
+  {
+    "id": 99,
+    "name_ko": "노가드",
+    "effect": "서로의 기술이 반드시 맞는다.",
+    "generation": 4
+  },
+  {
+    "id": 100,
+    "name_ko": "시간벌기",
+    "effect": "상대보다 재빨라도 행동이 느려진다.",
+    "generation": 4
+  },
+  {
+    "id": 101,
+    "name_ko": "테크니션",
+    "effect": "약한 기술의 위력이 올라간다.",
+    "generation": 4
+  },
+  {
+    "id": 102,
+    "name_ko": "리프가드",
+    "effect": "맑을 때는 상태 이상이 되지 않는다.",
+    "generation": 4
+  },
+  {
+    "id": 103,
+    "name_ko": "서투름",
+    "effect": "지니고 있는 도구를 쓸 수 없다.",
+    "generation": 4
+  },
+  {
+    "id": 104,
+    "name_ko": "틀깨기",
+    "effect": "특성에 관계없이 상대에게 기술을 쓸 수 있다.",
+    "generation": 4
+  },
+  {
+    "id": 105,
+    "name_ko": "대운",
+    "effect": "상대의 급소에 공격이 맞기 쉽다.",
+    "generation": 4
+  },
+  {
+    "id": 106,
+    "name_ko": "유폭",
+    "effect": "기절할 때 스친 상대에게 데미지를 준다.",
+    "generation": 4
+  },
+  {
+    "id": 107,
+    "name_ko": "위험예지",
+    "effect": "상대가 지닌 위험한 기술을 감지한다.",
+    "generation": 4
+  },
+  {
+    "id": 108,
+    "name_ko": "예지몽",
+    "effect": "상대가 지닌 기술을 꿰뚫어볼 수 있다.",
+    "generation": 4
+  },
+  {
+    "id": 109,
+    "name_ko": "천진",
+    "effect": "상대의 능력 변화를 무시한다.",
+    "generation": 4
+  },
+  {
+    "id": 110,
+    "name_ko": "색안경",
+    "effect": "효과가 별로인 기술이 강해진다.",
+    "generation": 4
+  },
+  {
+    "id": 111,
+    "name_ko": "필터",
+    "effect": "효과가 굉장한 기술의 위력을 약하게 한다.",
+    "generation": 4
+  },
+  {
+    "id": 112,
+    "name_ko": "슬로스타트",
+    "effect": "공격과 스피드가 잠시 동안 절반이 된다.",
+    "generation": 4
+  },
+  {
+    "id": 113,
+    "name_ko": "배짱",
+    "effect": "고스트타입에 노말 기술이 맞는다.",
+    "generation": 4
+  },
+  {
+    "id": 114,
+    "name_ko": "마중물",
+    "effect": "물을 끌어모아 특수공격을 올린다.",
+    "generation": 4
+  },
+  {
+    "id": 115,
+    "name_ko": "아이스바디",
+    "effect": "싸라기눈일 때 HP를 조금씩 회복한다.",
+    "generation": 4
+  },
+  {
+    "id": 116,
+    "name_ko": "하드록",
+    "effect": "효과가 굉장한 기술의 위력을 약하게 한다.",
+    "generation": 4
+  },
+  {
+    "id": 117,
+    "name_ko": "눈퍼뜨리기",
+    "effect": "배틀에 나가면 싸라기눈을 내리게 한다.",
+    "generation": 4
+  },
+  {
+    "id": 118,
+    "name_ko": "꿀모으기",
+    "effect": "달콤한꿀을 모아서 올 때가 있다.",
+    "generation": 4
+  },
+  {
+    "id": 119,
+    "name_ko": "통찰",
+    "effect": "상대가 지닌 물건을 알 수 있다.",
+    "generation": 4
+  },
+  {
+    "id": 120,
+    "name_ko": "이판사판",
+    "effect": "반동 데미지를 받는 기술이 강해진다.",
+    "generation": 4
+  },
+  {
+    "id": 121,
+    "name_ko": "멀티타입",
+    "effect": "지니고 있는 플레이트에 따라 타입이 바뀐다.",
+    "generation": 4
+  },
+  {
+    "id": 122,
+    "name_ko": "플라워기프트",
+    "effect": "맑을 때 자신과 같은 편이 강해진다.",
+    "generation": 4
+  },
+  {
+    "id": 123,
+    "name_ko": "나이트메어",
+    "effect": "잠들어 있는 상대의 HP를 줄인다.",
+    "generation": 4
+  },
+  {
+    "id": 124,
+    "name_ko": "나쁜손버릇",
+    "effect": "닿은 상대로부터 도구를 훔친다.",
+    "generation": 5
+  },
+  {
+    "id": 125,
+    "name_ko": "우격다짐",
+    "effect": "힘이 강해지지만 추가 효과가 없어진다.",
+    "generation": 5
+  },
+  {
+    "id": 126,
+    "name_ko": "심술꾸러기",
+    "effect": "능력의 변화가 역전된다.",
+    "generation": 5
+  },
+  {
+    "id": 127,
+    "name_ko": "긴장감",
+    "effect": "상대를 긴장시켜 나무열매를 먹지 못하게 한다.",
+    "generation": 5
+  },
+  {
+    "id": 128,
+    "name_ko": "오기",
+    "effect": "능력이 떨어지면 공격이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 129,
+    "name_ko": "무기력",
+    "effect": "HP가 절반이 되면 능력이 떨어진다.",
+    "generation": 5
+  },
+  {
+    "id": 130,
+    "name_ko": "저주받은바디",
+    "effect": "공격받으면 가끔 상대를 사슬묶기 상태로 만든다.",
+    "generation": 5
+  },
+  {
+    "id": 131,
+    "name_ko": "치유의마심",
+    "effect": "같은 편의 상태 이상을 가끔 회복시킨다.",
+    "generation": 5
+  },
+  {
+    "id": 132,
+    "name_ko": "프렌드가드",
+    "effect": "같은 편의 데미지를 줄일 수 있다.",
+    "generation": 5
+  },
+  {
+    "id": 133,
+    "name_ko": "깨어진갑옷",
+    "effect": "물리 기술을 받으면 방어가 떨어지고 스피드가 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 134,
+    "name_ko": "헤비메탈",
+    "effect": "자신의 무게가 2배가 된다.",
+    "generation": 5
+  },
+  {
+    "id": 135,
+    "name_ko": "라이트메탈",
+    "effect": "자신의 무게가 절반이 된다.",
+    "generation": 5
+  },
+  {
+    "id": 136,
+    "name_ko": "멀티스케일",
+    "effect": "HP가 꽉 찼을 때 데미지가 줄어든다.",
+    "generation": 5
+  },
+  {
+    "id": 137,
+    "name_ko": "독폭주",
+    "effect": "독 상태일 때 물리공격의 위력이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 138,
+    "name_ko": "열폭주",
+    "effect": "화상 상태일 때 특수공격의 위력이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 139,
+    "name_ko": "수확",
+    "effect": "사용한 나무열매를 몇 번이고 만들어 낸다.",
+    "generation": 5
+  },
+  {
+    "id": 140,
+    "name_ko": "텔레파시",
+    "effect": "같은 편의 공격의 낌새를 읽고 기술을 받지 않는다.",
+    "generation": 5
+  },
+  {
+    "id": 141,
+    "name_ko": "변덕쟁이",
+    "effect": "능력이 오르락내리락한다.",
+    "generation": 5
+  },
+  {
+    "id": 142,
+    "name_ko": "방진",
+    "effect": "먼지나 가루를 막는다.",
+    "generation": 5
+  },
+  {
+    "id": 143,
+    "name_ko": "독수",
+    "effect": "접촉하기만 해도 상대를 독 상태로 만들 때가 있다.",
+    "generation": 5
+  },
+  {
+    "id": 144,
+    "name_ko": "재생력",
+    "effect": "볼에 넣으면 HP가 조금 회복된다.",
+    "generation": 5
+  },
+  {
+    "id": 145,
+    "name_ko": "부풀린가슴",
+    "effect": "방어를 떨어뜨리는 공격을 받지 않는다.",
+    "generation": 5
+  },
+  {
+    "id": 146,
+    "name_ko": "모래헤치기",
+    "effect": "모래바람으로 스피드가 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 147,
+    "name_ko": "미라클스킨",
+    "effect": "변화 기술을 받기 어려운 몸으로 되어 있다.",
+    "generation": 5
+  },
+  {
+    "id": 148,
+    "name_ko": "애널라이즈",
+    "effect": "제일 마지막에 기술을 쓰면 강해진다.",
+    "generation": 5
+  },
+  {
+    "id": 149,
+    "name_ko": "일루전",
+    "effect": "뒤의 포켓몬으로 둔갑하여 나온다.",
+    "generation": 5
+  },
+  {
+    "id": 150,
+    "name_ko": "괴짜",
+    "effect": "눈앞의 포켓몬으로 변신해버린다.",
+    "generation": 5
+  },
+  {
+    "id": 151,
+    "name_ko": "틈새포착",
+    "effect": "상대의 벽을 뚫고 공격한다.",
+    "generation": 5
+  },
+  {
+    "id": 152,
+    "name_ko": "미라",
+    "effect": "상대의 기술을 받으면 상대를 미라로 만든다.",
+    "generation": 5
+  },
+  {
+    "id": 153,
+    "name_ko": "자기과신",
+    "effect": "상대를 쓰러뜨리면 공격이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 154,
+    "name_ko": "정의의마음",
+    "effect": "악 기술을 받으면 공격이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 155,
+    "name_ko": "주눅",
+    "effect": "주눅이 들어 스피드가 올라가는 타입이 있다.",
+    "generation": 5
+  },
+  {
+    "id": 156,
+    "name_ko": "매직미러",
+    "effect": "변화 기술을 되받아칠 수 있다.",
+    "generation": 5
+  },
+  {
+    "id": 157,
+    "name_ko": "초식",
+    "effect": "풀 기술을 받으면 공격이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 158,
+    "name_ko": "짓궂은마음",
+    "effect": "변화 기술을 먼저 쓸 수 있다.",
+    "generation": 5
+  },
+  {
+    "id": 159,
+    "name_ko": "모래의힘",
+    "effect": "모래바람으로 위력이 올라가는 기술이 있다.",
+    "generation": 5
+  },
+  {
+    "id": 160,
+    "name_ko": "철가시",
+    "effect": "접촉한 상대에게 상처를 입힌다.",
+    "generation": 5
+  },
+  {
+    "id": 161,
+    "name_ko": "달마모드",
+    "effect": "위급할 때 모습이 변화한다.",
+    "generation": 5
+  },
+  {
+    "id": 162,
+    "name_ko": "승리의별",
+    "effect": "자신과 같은 편의 명중률이 올라간다.",
+    "generation": 5
+  },
+  {
+    "id": 163,
+    "name_ko": "터보블레이즈",
+    "effect": "특성에 관계없이 상대에게 기술을 쓸 수 있다.",
+    "generation": 5
+  },
+  {
+    "id": 164,
+    "name_ko": "테라볼티지",
+    "effect": "특성에 관계없이 상대에게 기술을 쓸 수 있다.",
+    "generation": 5
+  },
+  {
+    "id": 165,
+    "name_ko": "아로마베일",
+    "effect": "같은 편으로 향하는 멘탈 공격을 막는다.",
+    "generation": 6
+  },
+  {
+    "id": 166,
+    "name_ko": "플라워베일",
+    "effect": "같은 편의 풀타입 포켓몬은 능력이 떨어지지 않는다.",
+    "generation": 6
+  },
+  {
+    "id": 167,
+    "name_ko": "볼주머니",
+    "effect": "나무열매를 먹으면 HP도 회복한다.",
+    "generation": 6
+  },
+  {
+    "id": 168,
+    "name_ko": "변환자재",
+    "effect": "사용한 기술과 같은 타입으로 변화한다.",
+    "generation": 6
+  },
+  {
+    "id": 169,
+    "name_ko": "퍼코트",
+    "effect": "물리 기술의 데미지가 절반이 된다.",
+    "generation": 6
+  },
+  {
+    "id": 170,
+    "name_ko": "매지션",
+    "effect": "기술을 맞은 상대의 도구를 빼앗아 버린다.",
+    "generation": 6
+  },
+  {
+    "id": 171,
+    "name_ko": "방탄",
+    "effect": "구슬이나 폭탄에 맞지 않는다.",
+    "generation": 6
+  },
+  {
+    "id": 172,
+    "name_ko": "승기",
+    "effect": "능력이 떨어지면 특수공격이 올라간다.",
+    "generation": 6
+  },
+  {
+    "id": 173,
+    "name_ko": "옹골찬턱",
+    "effect": "턱이 튼튼하여 무는 힘이 강하다.",
+    "generation": 6
+  },
+  {
+    "id": 174,
+    "name_ko": "프리즈스킨",
+    "effect": "노말타입의 기술이 얼음타입이 된다.",
+    "generation": 6
+  },
+  {
+    "id": 175,
+    "name_ko": "스위트베일",
+    "effect": "같은 편의 포켓몬이 잠들지 않게 된다.",
+    "generation": 6
+  },
+  {
+    "id": 176,
+    "name_ko": "배틀스위치",
+    "effect": "배틀모드에서 모습이 바뀐다.",
+    "generation": 6
+  },
+  {
+    "id": 177,
+    "name_ko": "질풍날개",
+    "effect": "비행타입의 기술이 먼저 나오게 된다.",
+    "generation": 6
+  },
+  {
+    "id": 178,
+    "name_ko": "메가런처",
+    "effect": "파동 기술의 위력이 크다.",
+    "generation": 6
+  },
+  {
+    "id": 179,
+    "name_ko": "풀모피",
+    "effect": "그래스필드일 때 방어가 올라간다.",
+    "generation": 6
+  },
+  {
+    "id": 180,
+    "name_ko": "공생",
+    "effect": "같은 편에게 도구를 건넬 수 있게 된다.",
+    "generation": 6
+  },
+  {
+    "id": 181,
+    "name_ko": "단단한발톱",
+    "effect": "접촉하는 기술의 위력이 올라간다.",
+    "generation": 6
+  },
+  {
+    "id": 182,
+    "name_ko": "페어리스킨",
+    "effect": "노말타입의 기술이 페어리타입이 된다.",
+    "generation": 6
+  },
+  {
+    "id": 183,
+    "name_ko": "미끈미끈",
+    "effect": "접촉한 상대의 스피드를 떨어뜨린다.",
+    "generation": 6
+  },
+  {
+    "id": 184,
+    "name_ko": "스카이스킨",
+    "effect": "노말타입의 기술이 비행타입이 된다.",
+    "generation": 6
+  },
+  {
+    "id": 185,
+    "name_ko": "부자유친",
+    "effect": "부모와 자식 2마리가 공격한다.",
+    "generation": 6
+  },
+  {
+    "id": 186,
+    "name_ko": "다크오라",
+    "effect": "전원의 악타입 기술이 강해진다.",
+    "generation": 6
+  },
+  {
+    "id": 187,
+    "name_ko": "페어리오라",
+    "effect": "전원의 페어리타입 기술이 강해진다.",
+    "generation": 6
+  },
+  {
+    "id": 188,
+    "name_ko": "오라브레이크",
+    "effect": "오라의 효과가 반대가 된다.",
+    "generation": 6
+  },
+  {
+    "id": 189,
+    "name_ko": "시작의바다",
+    "effect": "불꽃타입의 공격을 받지 않는 날씨로 만든다.",
+    "generation": 6
+  },
+  {
+    "id": 190,
+    "name_ko": "끝의대지",
+    "effect": "물타입의 공격을 받지 않는 날씨로 만든다.",
+    "generation": 6
+  },
+  {
+    "id": 191,
+    "name_ko": "델타스트림",
+    "effect": "비행타입의 약점이 없어지는 날씨로 만든다.",
+    "generation": 6
+  },
+  {
+    "id": 192,
+    "name_ko": "지구력",
+    "effect": "공격을 받으면 방어가 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 193,
+    "name_ko": "도망태세",
+    "effect": "HP가 절반이 되면 황급히 도망쳐서 지닌 포켓몬으로 돌아간다.",
+    "generation": 7
+  },
+  {
+    "id": 194,
+    "name_ko": "위기회피",
+    "effect": "HP가 절반이 되면 위험을 회피하기 위해 지닌 포켓몬으로 돌아간다.",
+    "generation": 7
+  },
+  {
+    "id": 195,
+    "name_ko": "꾸덕꾸덕굳기",
+    "effect": "물타입의 기술을 받으면 방어가 크게 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 196,
+    "name_ko": "무도한행동",
+    "effect": "독 상태의 상대를 공격하면 반드시 급소에 맞는다.",
+    "generation": 7
+  },
+  {
+    "id": 197,
+    "name_ko": "리밋실드",
+    "effect": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다.",
+    "generation": 7
+  },
+  {
+    "id": 198,
+    "name_ko": "잠복",
+    "effect": "교체로 나온 상대에게 2배의 데미지로 공격할 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 199,
+    "name_ko": "수포",
+    "effect": "자신을 향하는 불꽃타입 기술의 위력을 떨어뜨린다. 화상을 입지 않는다.",
+    "generation": 7
+  },
+  {
+    "id": 200,
+    "name_ko": "강철술사",
+    "effect": "강철타입 기술의 위력이 1.5배 오른다.",
+    "generation": 7
+  },
+  {
+    "id": 201,
+    "name_ko": "발끈",
+    "effect": "상대의 공격으로 HP가 절반이 되면 특수공격이 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 202,
+    "name_ko": "눈치우기",
+    "effect": "싸라기눈일 때 스피드가 오른다.",
+    "generation": 7
+  },
+  {
+    "id": 203,
+    "name_ko": "원격",
+    "effect": "모든 기술을 상대에게 접촉하지 않고 사용할 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 204,
+    "name_ko": "촉촉보이스",
+    "effect": "모든 소리 기술이 물타입이 된다.",
+    "generation": 7
+  },
+  {
+    "id": 205,
+    "name_ko": "힐링시프트",
+    "effect": "회복 기술을 먼저 사용할 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 206,
+    "name_ko": "일렉트릭스킨",
+    "effect": "노말타입 기술이 전기타입이 된다.위력이 조금 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 207,
+    "name_ko": "서핑테일",
+    "effect": "일렉트릭필드일 때 스피드가 2배가 된다.",
+    "generation": 7
+  },
+  {
+    "id": 208,
+    "name_ko": "어군",
+    "effect": "HP가 많을 때 무리지어 강해진다. HP가 얼마 남지 않으면 무리는 뿔뿔이 흩어진다.",
+    "generation": 7
+  },
+  {
+    "id": 209,
+    "name_ko": "탈",
+    "effect": "몸을 덮는 탈로 1번 공격을 막을 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 210,
+    "name_ko": "유대변화",
+    "effect": "상대를 쓰러뜨리면 트레이너와의 유대감이 깊어져서 지우개굴닌자로 변한다. 물수리검이 강해진다.",
+    "generation": 7
+  },
+  {
+    "id": 211,
+    "name_ko": "스웜체인지",
+    "effect": "HP가 절반이 되면 셀들이 응원하러 달려와 퍼펙트폼으로 모습이 변한다.",
+    "generation": 7
+  },
+  {
+    "id": 212,
+    "name_ko": "부식",
+    "effect": "강철타입이나 독타입도 독 상태로 만들 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 213,
+    "name_ko": "절대안깸",
+    "effect": "항상 비몽사몽 상태로 절대 깨지 않는다. 잠든 상태로 공격할 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 214,
+    "name_ko": "여왕의위엄",
+    "effect": "상대에게 위압감을 줘서 이쪽을 향한 선제 기술을 사용할 수 없게 한다.",
+    "generation": 7
+  },
+  {
+    "id": 215,
+    "name_ko": "내용물분출",
+    "effect": "상대가 쓰러뜨렸을때 HP의 남은 양만큼 상대에게 데미지를 준다.",
+    "generation": 7
+  },
+  {
+    "id": 216,
+    "name_ko": "무희",
+    "effect": "누군가 춤 기술을 쓰면 자신도 이어서 춤 기술을 쓸 수 있다.",
+    "generation": 7
+  },
+  {
+    "id": 217,
+    "name_ko": "배터리",
+    "effect": "같은 편 특수 기술의 위력을 올린다.",
+    "generation": 7
+  },
+  {
+    "id": 218,
+    "name_ko": "복슬복슬",
+    "effect": "상대로부터 받은 접촉하는 기술의 데미지를 반감시키지만 불꽃타입 기술의 데미지는 2배가 된다.",
+    "generation": 7
+  },
+  {
+    "id": 219,
+    "name_ko": "비비드바디",
+    "effect": "상대를 놀라게 해서 이쪽을 향한 선제 기술을 사용할 수 없게 한다.",
+    "generation": 7
+  },
+  {
+    "id": 220,
+    "name_ko": "소울하트",
+    "effect": "포켓몬이 기절할 때마다 특수공격이 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 221,
+    "name_ko": "컬리헤어",
+    "effect": "공격으로 자신과 접촉한 상대의 스피드를 떨어뜨린다.",
+    "generation": 7
+  },
+  {
+    "id": 222,
+    "name_ko": "리시버",
+    "effect": "쓰러진 같은 편의 특성을 이어받아 같은 특성이 된다.",
+    "generation": 7
+  },
+  {
+    "id": 223,
+    "name_ko": "과학의힘",
+    "effect": "쓰러진 같은 편의 특성을 이어받아 같은 특성으로 바뀐다.",
+    "generation": 7
+  },
+  {
+    "id": 224,
+    "name_ko": "비스트부스트",
+    "effect": "상대를 기절시켰을 때 자신의 가장 높은 능력이 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 225,
+    "name_ko": "AR시스템",
+    "effect": "지니고 있는 메모리로 자신의 타입이 변한다.",
+    "generation": 7
+  },
+  {
+    "id": 226,
+    "name_ko": "일렉트릭메이커",
+    "effect": "등장했을 때 일렉트릭필드를 사용한다.",
+    "generation": 7
+  },
+  {
+    "id": 227,
+    "name_ko": "사이코메이커",
+    "effect": "등장했을 때 사이코필드를 사용한다.",
+    "generation": 7
+  },
+  {
+    "id": 228,
+    "name_ko": "미스트메이커",
+    "effect": "등장했을 때 미스트필드를 사용한다.",
+    "generation": 7
+  },
+  {
+    "id": 229,
+    "name_ko": "그래스메이커",
+    "effect": "등장했을 때 그래스필드를 사용한다.",
+    "generation": 7
+  },
+  {
+    "id": 230,
+    "name_ko": "메탈프로텍트",
+    "effect": "상대 기술이나 특성으로 능력을 떨어뜨릴 수 없다.",
+    "generation": 7
+  },
+  {
+    "id": 231,
+    "name_ko": "스펙터가드",
+    "effect": "HP가 꽉 찼을 때 받는 데미지가 줄어든다.",
+    "generation": 7
+  },
+  {
+    "id": 232,
+    "name_ko": "프리즘아머",
+    "effect": "효과가 굉장한 공격의 위력을 약하게 만든다.",
+    "generation": 7
+  },
+  {
+    "id": 233,
+    "name_ko": "브레인포스",
+    "effect": "효과가 굉장한 공격의 위력이 더욱 올라간다.",
+    "generation": 7
+  },
+  {
+    "id": 234,
+    "name_ko": "불요의검",
+    "effect": "등장했을 때 공격이 올라간다.",
+    "generation": 8
+  },
+  {
+    "id": 235,
+    "name_ko": "불굴의방패",
+    "effect": "등장했을 때 방어가 올라간다.",
+    "generation": 8
+  },
+  {
+    "id": 236,
+    "name_ko": "리베로",
+    "effect": "자신이 사용한 기술과 같은 타입으로 변화한다.",
+    "generation": 8
+  },
+  {
+    "id": 237,
+    "name_ko": "볼줍기",
+    "effect": "도구를 지니고 있지 않은 경우 첫 번째로 던져서 실패한 몬스터볼을 주워온다.",
+    "generation": 8
+  },
+  {
+    "id": 238,
+    "name_ko": "솜털",
+    "effect": "공격을 받으면 솜털을 흩뿌려 자신을 제외한 모든 포켓몬의 스피드를 떨어뜨린다.",
+    "generation": 8
+  },
+  {
+    "id": 239,
+    "name_ko": "스크루지느러미",
+    "effect": "상대의 기술을 끌어모으는 특성이나 기술의 영향을 받지 않는다.",
+    "generation": 8
+  },
+  {
+    "id": 240,
+    "name_ko": "미러아머",
+    "effect": "자신이 받는 능력 다운 효과에 한해 되받아친다.",
+    "generation": 8
+  },
+  {
+    "id": 241,
+    "name_ko": "그대로꿀꺽미사일",
+    "effect": "파도타기나 다이빙을 쓰면 먹이를 물어온다. 데미지를 받으면 먹이를 토해내서 공격한다.",
+    "generation": 8
+  },
+  {
+    "id": 242,
+    "name_ko": "굳건한신념",
+    "effect": "상대의 기술을 끌어모으는 특성이나 기술의 영향을 받지 않는다.",
+    "generation": 8
+  },
+  {
+    "id": 243,
+    "name_ko": "증기기관",
+    "effect": "물타입이나 불꽃타입 기술을 받으면 스피드가 매우 크게 올라간다.",
+    "generation": 8
+  },
+  {
+    "id": 244,
+    "name_ko": "펑크록",
+    "effect": "소리 기술의 위력이 올라간다. 상대로부터 받는 소리 기술의 데미지는 절반이 된다.",
+    "generation": 8
+  },
+  {
+    "id": 245,
+    "name_ko": "모래뿜기",
+    "effect": "공격을 받으면 모래바람을 일으킨다.",
+    "generation": 8
+  },
+  {
+    "id": 246,
+    "name_ko": "얼음인분",
+    "effect": "얼음인분의 보호를 받아 특수공격으로 받는 데미지가 절반이 된다.",
+    "generation": 8
+  },
+  {
+    "id": 247,
+    "name_ko": "숙성",
+    "effect": "나무열매를 숙성시켜서 효과가 2배가 된다.",
+    "generation": 8
+  },
+  {
+    "id": 248,
+    "name_ko": "아이스페이스",
+    "effect": "물리공격을 머리의 얼음이 대신 맞아주지만 모습도 변한다. 얼음은 싸라기눈이 내리면 원래대로 돌아온다.",
+    "generation": 8
+  },
+  {
+    "id": 249,
+    "name_ko": "파워스폿",
+    "effect": "옆에 있기만 해도 기술의 위력이 올라간다.",
+    "generation": 8
+  },
+  {
+    "id": 250,
+    "name_ko": "의태",
+    "effect": "필드의 상태에 따라 포켓몬의 타입이 변한다.",
+    "generation": 8
+  },
+  {
+    "id": 251,
+    "name_ko": "배리어프리",
+    "effect": "등장했을 때 상대와 같은 편의 빛의장막, 리플렉터, 오로라베일의 효과가 사라진다.",
+    "generation": 8
+  },
+  {
+    "id": 252,
+    "name_ko": "강철정신",
+    "effect": "같은 편의 강철타입 공격의 위력이 올라간다.",
+    "generation": 8
+  },
+  {
+    "id": 253,
+    "name_ko": "멸망의바디",
+    "effect": "접촉하는 기술을 받으면 3턴 후에 양쪽 모두 기절한다. 교체되면 효과가 없어진다.",
+    "generation": 8
+  },
+  {
+    "id": 254,
+    "name_ko": "떠도는영혼",
+    "effect": "접촉하는 기술로 공격해온 포켓몬과 특성이 바꾼다.",
+    "generation": 8
+  },
+  {
+    "id": 255,
+    "name_ko": "철침",
+    "effect": "",
+    "generation": 8
+  },
+  {
+    "id": 256,
+    "name_ko": "무아지경",
+    "effect": "공격이 올라가지만 처음에 선택한 기술 외에는 쓸 수 없게 된다.",
+    "generation": 8
+  },
+  {
+    "id": 257,
+    "name_ko": "화학변화가스",
+    "effect": "화학변화가스를 가진 포켓몬이 배틀에 나와 있으면 모든 포켓몬이 가진 특성의 효과가 사라지거나 발동하지 않게 된다.",
+    "generation": 8
+  },
+  {
+    "id": 258,
+    "name_ko": "파스텔베일",
+    "effect": "자신과 같은 편이 독의 상태 이상 효과를 받지 않게 된다.",
+    "generation": 8
+  },
+  {
+    "id": 259,
+    "name_ko": "꼬르륵스위치",
+    "effect": "턴이 끝날 때마다 배부른 모양, 배고픈 모양, 배부른 모양... 으로 번갈아서 모습을 바꾼다.",
+    "generation": 8
+  },
+  {
+    "id": 260,
+    "name_ko": "퀵드로",
+    "effect": "상대보다 먼저 행동할 수도 있다.",
+    "generation": 8
+  },
+  {
+    "id": 261,
+    "name_ko": "보이지않는주먹",
+    "effect": "접촉하는 기술을 사용할 때 방어 등을 무시하고 공격할 수 있다.",
+    "generation": 8
+  },
+  {
+    "id": 262,
+    "name_ko": "기묘한약",
+    "effect": "같은 편의 능력 변화를 원래대로 되돌린다.",
+    "generation": 8
+  },
+  {
+    "id": 263,
+    "name_ko": "트랜지스터",
+    "effect": "전기 타입 기술의 위력이 1.5배 오른다.",
+    "generation": 8
+  },
+  {
+    "id": 264,
+    "name_ko": "용의턱",
+    "effect": "드래곤 타입 기술의 위력이 1.5배 오른다.",
+    "generation": 8
+  },
+  {
+    "id": 265,
+    "name_ko": "백의울음",
+    "effect": "상대를 쓰러뜨릴 때마다 공격이 1랭크 상승한다.",
+    "generation": 8
+  },
+  {
+    "id": 266,
+    "name_ko": "흑의울음",
+    "effect": "상대를 쓰러뜨릴 때마다 특수공격이 1랭크 상승한다.",
+    "generation": 8
+  },
+  {
+    "id": 267,
+    "name_ko": "혼연일체",
+    "effect": "상대를 쓰러뜨릴 때마다 백마 탄 모습일 시 공격이, 흑마 탄 모습일 시 특수공격이 1랭크 상승한다.",
+    "generation": 8
+  },
+  {
+    "id": 268,
+    "name_ko": "가시지않는향기",
+    "effect": "상대가 접촉하면 가시지 않는 향기가 상대에게 배어 버린다.",
+    "generation": 9
+  },
+  {
+    "id": 269,
+    "name_ko": "넘치는씨",
+    "effect": "공격을 받으면 필드를 그래스필드로 만든다.",
+    "generation": 9
+  },
+  {
+    "id": 270,
+    "name_ko": "열교환",
+    "effect": "불꽃타입 기술로 공격받으면 공격이 올라간다. 화상 상태가 되지 않는다.",
+    "generation": 9
+  },
+  {
+    "id": 271,
+    "name_ko": "분노의껍질",
+    "effect": "상대의 공격에 의해 HP가 절반이 되면 화가 나서 방어와 특수방어가 떨어지지만 공격, 특수공격, 스피드가 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 272,
+    "name_ko": "정화의소금",
+    "effect": "깨끗한 소금에 의해 상태 이상이 되지 않는다. 고스트타입 기술의 데미지를 반감시킨다.",
+    "generation": 9
+  },
+  {
+    "id": 273,
+    "name_ko": "노릇노릇바디",
+    "effect": "불꽃타입 기술로 공격받으면 데미지를 입지 않고 방어가 크게 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 274,
+    "name_ko": "바람타기",
+    "effect": "순풍이 불거나 바람 기술로 공격받으면 데미지를 받지 않고 공격이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 275,
+    "name_ko": "파수견",
+    "effect": "위협을 받으면 공격이 올라간다. 포켓몬을 교체시키는 기술이나 도구의 효과를 받지 않는다.",
+    "generation": 9
+  },
+  {
+    "id": 276,
+    "name_ko": "바위나르기",
+    "effect": "바위타입 기술의 위력이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 277,
+    "name_ko": "풍력발전",
+    "effect": "바람 기술로 공격받으면 충전 상태가 된다.",
+    "generation": 9
+  },
+  {
+    "id": 278,
+    "name_ko": "마이티체인지",
+    "effect": "지닌 포켓몬으로 돌아오면 마이티폼으로 변한다.",
+    "generation": 9
+  },
+  {
+    "id": 279,
+    "name_ko": "사령탑",
+    "effect": "등장했을 때 같은 편에 어써러셔가 있으면 입속에 들어가 안에서 지시를 내린다.",
+    "generation": 9
+  },
+  {
+    "id": 280,
+    "name_ko": "전기로바꾸기",
+    "effect": "데미지를 받으면 충전 상태가 된다.",
+    "generation": 9
+  },
+  {
+    "id": 281,
+    "name_ko": "고대활성",
+    "effect": "부스트에너지를 지니고 있거나 날씨가 맑을 때 가장 높은 능력이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 282,
+    "name_ko": "쿼크차지",
+    "effect": "부스트에너지를 지니고 있거나 일렉트릭필드일 때 가장 높은 능력이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 283,
+    "name_ko": "황금몸",
+    "effect": "산화하지 않는 튼튼한 황금몸 덕분에 상대의 변화 기술의 영향을 받지 않는다.",
+    "generation": 9
+  },
+  {
+    "id": 284,
+    "name_ko": "재앙의그릇",
+    "effect": "재앙을 부르는 그릇의 힘으로 자신을 제외한 모든 포켓몬의 특수 공격을 약하게 만든다.",
+    "generation": 9
+  },
+  {
+    "id": 285,
+    "name_ko": "재앙의검",
+    "effect": "재앙을 부르는 검의 힘으로 자신을 제외한 모든 포켓몬의 방어를 약하게 만든다.",
+    "generation": 9
+  },
+  {
+    "id": 286,
+    "name_ko": "재앙의목간",
+    "effect": "재앙을 부르는 목간의 힘으로 자신을 제외한 모든 포켓몬의 공격을 약하게 만든다.",
+    "generation": 9
+  },
+  {
+    "id": 287,
+    "name_ko": "재앙의구슬",
+    "effect": "재앙을 부르는 곡옥의 힘으 자신을 제외한 모든 포켓몬의 특수방어를 약하게 만든다.",
+    "generation": 9
+  },
+  {
+    "id": 288,
+    "name_ko": "진홍빛고동",
+    "effect": "등장했을 때 날씨를 맑음으로 만든다. 햇살이 강하면 고대의 고동에 의해 공격이 강화된다.",
+    "generation": 9
+  },
+  {
+    "id": 289,
+    "name_ko": "하드론엔진",
+    "effect": "등장했을 때 일렉트릭필드를 전개한다. 일렉트릭필드일 때 미래 기관에 의해 특수공격이 강화된다.",
+    "generation": 9
+  },
+  {
+    "id": 290,
+    "name_ko": "편승",
+    "effect": "상대의 능력이 올라가면 자신도 편승해서 똑같이 자신도 올린다.",
+    "generation": 9
+  },
+  {
+    "id": 291,
+    "name_ko": "되새김질",
+    "effect": "한 번에 한하여 나무열매를 먹으면 다음 턴이 끝날 때 위에서 꺼내서 또 먹는다.",
+    "generation": 9
+  },
+  {
+    "id": 292,
+    "name_ko": "예리함",
+    "effect": "상대를 베는 기술의 위력이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 293,
+    "name_ko": "총대장",
+    "effect": "등장했을 때 지금까지 쓰러진 같은 편의 수가 많을수록 조금씩 공격과 특수공격이 올라간다.",
+    "generation": 9
+  },
+  {
+    "id": 294,
+    "name_ko": "협연",
+    "effect": "등장했을 때 같은 편의 능력 변화를 복사한다.",
+    "generation": 9
+  },
+  {
+    "id": 295,
+    "name_ko": "독치장",
+    "effect": "물리 기술로 데미지를 받으면 상대의 발밑에 독압정을 뿌린다.",
+    "generation": 9
+  },
+  {
+    "id": 296,
+    "name_ko": "테일아머",
+    "effect": "머리를 감싸고 있는 수수께끼의 꼬리가 이쪽을 향한 선제 기술을 사용할 수 없게 한다.",
+    "generation": 9
+  },
+  {
+    "id": 297,
+    "name_ko": "흙먹기",
+    "effect": "땅타입의 기술로 공격받으면 데미지를 받지 않고 회복한다.",
+    "generation": 9
+  },
+  {
+    "id": 298,
+    "name_ko": "균사의힘",
+    "effect": "변화 기술을 사용할 때 반드시 행동이 느려지지만 상대 특성에 방해받지 않는다.",
+    "generation": 9
+  },
+  {
+    "id": 299,
+    "name_ko": "대접",
+    "effect": "등장했을 때 같은 편을 대접해서 HP를 조금 회복시킨다.",
+    "generation": 9
+  },
+  {
+    "id": 300,
+    "name_ko": "심안",
+    "effect": "노말타입과 격투타입 기술을 고스트타입에게 맞힐 수 있다. 상대의 회피율 변화를 무시하고 명중률도 떨어지지 않는다.",
+    "generation": 9
+  },
+  {
+    "id": 301,
+    "name_ko": "초상투영",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 302,
+    "name_ko": "초상투영",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 303,
+    "name_ko": "초상투영",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 304,
+    "name_ko": "초상투영",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 305,
+    "name_ko": "독사슬",
+    "effect": "독소를 머금은 사슬의 힘으로 기술에 맞은 상대를 맹독 상태로 만들 때가 있다.",
+    "generation": 9
+  },
+  {
+    "id": 306,
+    "name_ko": "감미로운꿀",
+    "effect": "처음 등장했을 때 감미로운 꿀의 향기를 흩뿌려서 상대의 회피율을 떨어뜨린다.",
+    "generation": 9
+  },
+  {
+    "id": 307,
+    "name_ko": "테라체인지",
+    "effect": "등장했을 때 주위의 에너지를 흡수하여 테라스탈폼으로 변한다.",
+    "generation": 9
+  },
+  {
+    "id": 308,
+    "name_ko": "테라셸",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 309,
+    "name_ko": "제로포밍",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 310,
+    "name_ko": "독조종",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 311,
+    "name_ko": "관통드릴",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 312,
+    "name_ko": "드래곤스킨",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 313,
+    "name_ko": "메가솔라",
+    "effect": "",
+    "generation": 9
+  },
+  {
+    "id": 314,
+    "name_ko": "하바네로분출",
+    "effect": "",
+    "generation": 9
+  }
+]
